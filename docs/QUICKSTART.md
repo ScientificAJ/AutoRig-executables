@@ -1,12 +1,12 @@
 # Quickstart
 
-## 1. Make binary executable
+## 1. Run setup
 
 ```bash
-chmod +x ./bin/autorig_cli-linux-x86_64
+bash ./bin/setup.sh
 ```
 
-## 2. Check available commands
+## 2. Optional: check available commands
 
 ```bash
 ./bin/autorig_cli-linux-x86_64 --help
@@ -15,7 +15,7 @@ chmod +x ./bin/autorig_cli-linux-x86_64
 ## 3. Start API service
 
 ```bash
-./bin/autorig_cli-linux-x86_64 server --host 127.0.0.1 --port 8000
+bash ./bin/setup.sh --run --host 127.0.0.1 --port 8000
 ```
 
 ## 4. Open browser UI

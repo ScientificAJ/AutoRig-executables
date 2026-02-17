@@ -14,14 +14,13 @@ Professional distribution repository for AutoRig executable artifacts.
 ## Quick Start
 
 ```bash
-chmod +x ./bin/autorig_cli-linux-x86_64
-./bin/autorig_cli-linux-x86_64 --help
+bash ./bin/setup.sh
 ```
 
 Run API server and open the web interface:
 
 ```bash
-./bin/autorig_cli-linux-x86_64 server --host 127.0.0.1 --port 8000
+bash ./bin/setup.sh --run --host 127.0.0.1 --port 8000
 ```
 
 Then visit:
@@ -38,4 +37,3 @@ Then visit:
 ## Support
 
 - Email: `support@astroclub.space`
-
