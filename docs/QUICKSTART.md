@@ -59,3 +59,21 @@ bash ./bin/setup.sh --geometric --no-open
 This opens:
 
 - `/experimental/geometric` (**EXPERIMENTAL**)
+
+## 6) EXPERIMENTAL: Hair + Cloth Assist + Motion Presets (Optional)
+
+Browse/search the bundled motion preset library:
+
+```bash
+./bin/autorig_cli-linux-x86_64 presets search Wind_ --limit 10
+./bin/autorig_cli-linux-x86_64 presets show Wind_001
+```
+
+Run with experimental helper rigs enabled:
+
+```bash
+./bin/autorig_cli-linux-x86_64 validate \
+  --mesh model.obj --target blender --out output/model.rig.json \
+  --experimental-hair-rigging --experimental-cloth-assist \
+  --preset Wind_001 --intensity 0.5 --vector "0,1,0"
+```

@@ -2,14 +2,14 @@
 
 ## Artifact
 
-- `plugins/autorig_blender-0.1.0.zip`
+- `plugins/autorig_blender-0.2.0.zip`
 
 ## Install Steps
 
 1. Open Blender.
 2. Go to `Edit -> Preferences -> Add-ons`.
 3. Click `Install...`.
-4. Select `plugins/autorig_blender-0.1.0.zip`.
+4. Select `plugins/autorig_blender-0.2.0.zip`.
 5. Enable the `AutoRig AI` add-on.
 
 ## Notes
@@ -33,3 +33,17 @@ Enable in Blender:
 2. Find `AutoRig AI`.
 3. Under **Experimental**, enable `Enable EXPERIMENTAL Geometric Inference`.
 4. Set `Rig Mode` to `Geometric Inference (EXPERIMENTAL)`.
+
+## EXPERIMENTAL: Hair Rigging + Cloth Assist + Motion Presets (Optional)
+
+This add-on includes disabled-by-default helper rig layers:
+
+- Hair helper chains: `hair_grp_*`
+- Cloth assist chains: `cloth_grp_*`
+
+Enable in Blender:
+
+1. Open `Edit -> Preferences -> Add-ons`.
+2. Find `AutoRig AI`.
+3. Under **Experimental**, enable `Enable EXPERIMENTAL Hair Rigging` and/or `Enable EXPERIMENTAL Cloth Assist`.
+4. Optionally set a motion preset ID (e.g. `Wind_001`) and tweak direction/intensity/frequency/damping.
