@@ -88,8 +88,17 @@ main() {
   fi
 
   echo "Starting AutoRig API server..." >&2
-  echo "Open: http://127.0.0.1:${PORT}/docs" >&2
-  echo "Health: http://127.0.0.1:${PORT}/healthz" >&2
+
+  OPEN_HOST="$HOST"
+  if [[ "$OPEN_HOST" == "0.0.0.0" || "$OPEN_HOST" == "::" ]]; then
+    OPEN_HOST="127.0.0.1"
+  fi
+  if [[ "$OPEN_HOST" == *:* && "$OPEN_HOST" != \\[* ]]; then
+    OPEN_HOST="[$OPEN_HOST]"
+  fi
+
+  echo "Open: http://${OPEN_HOST}:${PORT}/docs" >&2
+  echo "Health: http://${OPEN_HOST}:${PORT}/healthz" >&2
   echo "Stop: Ctrl+C" >&2
 
   exec "$CLI_BIN" server --host "$HOST" --port "$PORT"
