@@ -120,3 +120,18 @@ Optional calibration override:
   --film-facial-mode landmark \
   --film-facial-calibration '{"offset_scale_x":1.05}'
 ```
+
+Optional eyelid color appearance block:
+
+```bash
+./bin/autorig_cli-linux-x86_64 validate \
+  --mesh model.obj --target blender --out output/model.rig.json \
+  --film-extension --film-facial-plugin \
+  --film-facial-eyelid-color-enabled \
+  --film-facial-eyelid-left-upper "#6A4C4C" \
+  --film-facial-eyelid-left-lower "#5A3F3F" \
+  --film-facial-eyelid-right-upper "#6A4C4C" \
+  --film-facial-eyelid-right-lower "#5A3F3F" \
+  --film-facial-eyelid-opacity 0.65 \
+  --film-facial-eyelid-color-space srgb
+```

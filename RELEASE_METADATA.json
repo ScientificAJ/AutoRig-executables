@@ -1,17 +1,17 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.3",
   "build_date": "2026-02-19",
   "source_repo": "https://github.com/ScientificAJ/AutoRig",
-  "source_commit": "ee8fd36",
+  "source_commit": "4328dd7",
   "features": [
-    "pocket_anchor_markers_contract",
-    "mandatory_pocket_anchor_confirmation_gate_web_blender",
-    "api_validation_pocket_anchor_invalid",
-    "pocket_marker_fallback_preserved"
+    "film_facial_eyelid_color_contract",
+    "api_validation_autorig_eyelid_color_invalid",
+    "web_blender_cli_eyelid_controls",
+    "metadata_facial_appearance_eyelid_color"
   ],
   "artifacts": [
     "bin/autorig_cli-linux-x86_64",
-    "plugins/autorig_blender-0.2.2.zip",
+    "plugins/autorig_blender-0.2.3.zip",
     "bin/setup.sh"
   ]
 }

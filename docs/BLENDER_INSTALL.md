@@ -2,14 +2,14 @@
 
 ## Artifact
 
-- `plugins/autorig_blender-0.2.2.zip`
+- `plugins/autorig_blender-0.2.3.zip`
 
 ## Install Steps
 
 1. Open Blender.
 2. Go to `Edit -> Preferences -> Add-ons`.
 3. Click `Install...`.
-4. Select `plugins/autorig_blender-0.2.2.zip`.
+4. Select `plugins/autorig_blender-0.2.3.zip`.
 5. Enable the `AutoRig AI` add-on.
 
 ## Notes
@@ -75,3 +75,15 @@ Enable in Blender:
 4. Optionally enable `Enable EXPERIMENTAL Film Facial Plugin`.
 5. Choose `Film Facial Mode` (`auto|landmark|surface_project|offset`).
 6. Optional: set `Film Facial Calibration JSON` for per-character overrides.
+
+## EXPERIMENTAL: Eyelid Color Appearance (Optional)
+
+When film extension + film facial plugin are enabled, this build adds eyelid color controls in
+add-on preferences:
+
+1. Enable `Enable Film Eyelid Color`.
+2. Set `Left/Right` upper/lower colors (`#RRGGBB`).
+3. Set opacity in `[0,1]`.
+4. Keep color space as `srgb`.
+
+Invalid eyelid payload values are rejected by the API with `AUTORIG_EYELID_COLOR_INVALID`.
