@@ -4,8 +4,8 @@ Prebuilt AutoRig artifacts intended for end users and integrators.
 
 Build:
 
-- Version: `0.2.0`
-- Build date (UTC): `2026-02-18`
+- Version: `0.2.1`
+- Build date (UTC): `2026-02-19`
 
 Source code and developer documentation live in:
 
@@ -17,7 +17,7 @@ Source code and developer documentation live in:
 |------|-------------|
 | `bin/autorig_cli-linux-x86_64` | Linux (x86_64) CLI binary (runs locally, no Python install required). |
 | `bin/setup.sh` | Helper to start the local API server and (optionally) open the EXPERIMENTAL drawing UI. |
-| `plugins/autorig_blender-0.2.0.zip` | Blender add-on zip (install in Blender Preferences). |
+| `plugins/autorig_blender-0.2.1.zip` | Blender add-on zip (install in Blender Preferences). |
 | `proposal/autorig_enterprise_proposal.pdf` | Proposal / deck PDF. |
 | `BUILD_INFO.json` | Build provenance (source commit + artifact hashes). |
 | `SHA256SUMS` | Integrity hashes for distributed artifacts. |

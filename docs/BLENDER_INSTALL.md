@@ -2,14 +2,14 @@
 
 ## Artifact
 
-- `plugins/autorig_blender-0.2.0.zip`
+- `plugins/autorig_blender-0.2.1.zip`
 
 ## Install Steps
 
 1. Open Blender.
 2. Go to `Edit -> Preferences -> Add-ons`.
 3. Click `Install...`.
-4. Select `plugins/autorig_blender-0.2.0.zip`.
+4. Select `plugins/autorig_blender-0.2.1.zip`.
 5. Enable the `AutoRig AI` add-on.
 
 ## Notes
