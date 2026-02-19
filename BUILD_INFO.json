@@ -1,13 +1,13 @@
 {
   "product": "AutoRig",
-  "built_at_utc": "2026-02-19T07:32:44Z",
+  "built_at_utc": "2026-02-19T10:34:53Z",
   "source_repo": "https://github.com/ScientificAJ/AutoRig",
-  "source_commit": "d65f8bf266f5459dcb28fcc8078baa3a476ffe2d",
-  "source_commit_short": "d65f8bf",
+  "source_commit": "f402684d3061b0b02983b505656372d5c4a4e1f0",
+  "source_commit_short": "f402684",
   "artifacts": [
-    {"path": "bin/autorig_cli-linux-x86_64", "sha256": "d4c02ef9db5b0e200446d7fae8cb7a491e1db8b9d5f5399be329e32419bd2d3d"},
+    {"path": "bin/autorig_cli-linux-x86_64", "sha256": "7997c089a8a0fc672d014fccef22f03386e9722bcccf8de27180a9c62daf670c"},
     {"path": "bin/setup.sh", "sha256": "771621787c957286eb104f2e3488d27043c2362d1cc65445936011839bdb49f9"},
-    {"path": "plugins/autorig_blender-0.2.1.zip", "sha256": "8a2c19dae8e1cb12a44ff335f55c29b4124a12c976628fe5e7c45055fb6f674b"},
+    {"path": "plugins/autorig_blender-0.2.1.zip", "sha256": "e45210eb0ca8980ff0851c14d249e18e1851ad02adc575041f9332d4c0d6eef3"},
     {"path": "proposal/autorig_enterprise_proposal.pdf", "sha256": "562be5bd3cc3323f30292b345409d471d54caa6c859e5a20e6294f38cde856b2"}
   ]
 }

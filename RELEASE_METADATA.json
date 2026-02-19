@@ -1,0 +1,17 @@
+{
+  "version": "0.2.1",
+  "build_date": "2026-02-19",
+  "source_repo": "https://github.com/ScientificAJ/AutoRig",
+  "source_commit": "f402684",
+  "features": [
+    "contact_pose_library_v2",
+    "contact_constraints_hand_pocket_hip_foot_crossleg_knee",
+    "pose_fallback_chain",
+    "cli_pose_flags"
+  ],
+  "artifacts": [
+    "bin/autorig_cli-linux-x86_64",
+    "plugins/autorig_blender-0.2.1.zip",
+    "bin/setup.sh"
+  ]
+}
