@@ -1,17 +1,20 @@
 {
-  "version": "0.2.3",
-  "build_date": "2026-02-19",
+  "version": "0.2.4",
+  "build_date": "2026-02-20",
   "source_repo": "https://github.com/ScientificAJ/AutoRig",
-  "source_commit": "d67043d",
+  "source_commit": "e4a51cd",
   "features": [
-    "film_facial_eyelid_color_contract",
-    "api_validation_autorig_eyelid_color_invalid",
-    "web_blender_cli_eyelid_controls",
-    "metadata_facial_appearance_eyelid_color"
+    "rig_weight_normalization_strict",
+    "mesh_symmetry_gated_enforcement",
+    "axis_scale_normalization_metadata",
+    "bone_roll_local_axis_stabilization",
+    "api_async_job_queue_and_mesh_preflight",
+    "blender_non_blocking_poll_and_dependency_guards",
+    "web_env_endpoint_polling_webgl_safety"
   ],
   "artifacts": [
     "bin/autorig_cli-linux-x86_64",
-    "plugins/autorig_blender-0.2.3.zip",
+    "plugins/autorig_blender-0.2.4.zip",
     "bin/setup.sh"
   ]
 }
